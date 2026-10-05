@@ -1,0 +1,321 @@
+/* 90% zoom */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+
+nav{
+    /* background-color: brown; */
+    margin: 10px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#firstp{
+    padding-left:20px;
+}
+
+.navLeft{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navLeft p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+}
+
+.navRight{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#me{
+    border: 1px solid black;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.navRight p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+}
+
+
+.Picons{
+    display: flex;
+    gap: 5px;
+}
+
+section{
+    /* background-color: pink; */
+    height: 82%;
+    width: 100%;
+    margin-top: 5px;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Hero-Desktop-Surface-Portfolio-Snapdragon-Platinum-Standard?&resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3840&hei=2160&qlt=85&fit=constrain&dpr=on,2);
+    background-position: center;
+    background-size: cover;
+    /* padding-bottom: 30px; */
+}
+
+.sectionText{
+    padding-top: 140px;
+    padding-left: 75px;
+    color: white;
+}
+
+#new{
+    background-color: #FFB900;
+    padding: 6px 16px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.sectionText h1{
+    padding-top: 10px;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 55px;
+}
+
+.sectionText p{
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#learn{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 15px;
+    border-color: transparent;
+    border-radius: 4px;
+}
+
+.cat{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+
+/* .catBox:hover{
+    border-style: dotted;
+    border-color: #2A446F;
+} */
+
+.cat p{
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 5px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+    color: #2A446F;
+}
+
+.cardSection{
+    /* background-color: paleturquoise; */
+    margin-top: 20px;
+    /* height: 70%; */
+    width: 100%;
+    display: flex;
+    gap: 17px;
+    padding: 20px 76px 20px 76px;
+
+}
+
+.catBox:hover{
+    cursor: pointer;
+
+}
+
+.cards{
+    /* background-color: blueviolet; */
+    border-radius: 25px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    /* width: 30%; */
+    /* padding-right: 10px; */
+    padding-bottom: 20px;
+}
+
+.cards:hover{
+    cursor: pointer;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cards img{
+    padding: 8px;
+    border-radius: 25px;
+    width: 100%;
+}
+
+.cards h1{
+    padding-left: 22px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cards p{
+    padding-left: 22px;
+    padding-top: 15px;
+    font-size: 16px;
+}
+
+.cards button{
+    margin-left: 22px;
+    padding: 10px 10px;
+    border-radius: 7px;
+    border-color: transparent;
+    font-size: 15px;
+    color: white;
+    background-color: #0078D4;
+}
+
+.cards button:hover{
+    background-color: #0062ae;
+}
+
+#shop{
+    margin-top: 60px;
+}
+
+#join{
+    margin-top: 85px;
+}
+
+#XBOXXbtn{
+    margin-top: 130px;
+}
+
+#XBOXSbtn {
+    margin-top: 110px;
+}
+
+.footer{
+    margin-top: 30px;
+    height: 50%;
+    width: 100%;
+    background-color: #F2F2F2;
+    padding-top: 40px;
+    padding-left: 60px;
+    color: #616161;
+}
+
+
+.footer h4{
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.footer p{
+    font-size: 11px;
+    line-height: 30px;
+}
+
+.resLeft{
+    font-size: 20px;
+}
+
+.Picons i {
+    font-size: 20px;
+}
+
+#resNav{
+    display: none;
+}
+
+.resSection{
+    padding-left: 75px;
+    padding-top: 40px;
+    background: linear-gradient(140deg , #062840 , #09212F 30%, #023D6A );
+    color: white;
+    padding-bottom: 50px;
+    display: none;
+    
+}
+
+.resSection h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.resSection p{
+    padding-bottom: 20px;
+}
+
+
+
+@media (max-width:1058px){
+    .res-1058{
+        display: none;
+
+    }
+
+    
+    
+}
+
+@media (max-width:855px) {
+
+    #large-nav{
+        display: none;
+    }
+
+    #resNav{
+        display: flex;
+    }
+
+    .Picons i{
+        font-size: 20px;
+    }
+
+    nav{
+        padding: none;
+    }
+
+    .resSection{
+        display: block;
+    }
+
+    .sectionText{
+        display: none;
+    }
+
+    .cat{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 20px;
+    }
+
+    .cardSection{
+        flex-direction: column;
+    }
+    
+    
+}
+
